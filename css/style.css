@@ -5,14 +5,39 @@ body{
 .photobox{
 	float: left;
 	padding: 8px;
-	margin-left: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
 	background-color: white;
+	box-shadow: 5px 5px 5px #A8A8A8;
+	border-radius: 5px;
+	transition:transform 0.3s ease;
+	position: relative;
+	overflow: hidden;
+}
+.photobox:hover{
+	transform:scale(1.1) rotate(5deg);
 }
 .photobox img{
-	height: 120px;
+	height: 100px;
 	display: block;
 }
 .photobox p{
 	text-align: center;
-	font-size: 18px;
+	font-size: 12px;
+	color: #333;
+	position:absolute;
+	margin: 0;
+	width: 100%;
+	left: 0;
+	background:rgba(0,0,0,0.4);
+	height: 30px;
+	bottom: -30px;
+	line-height: 30px;
+	color: white;
+	letter-spacing:2px;
 	}
+.photobox:hover p{
+	bottom: 0;
+	transition: all 0.3s;
+	
+}

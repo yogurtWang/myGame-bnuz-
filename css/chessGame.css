@@ -1,0 +1,64 @@
+@font-face {
+	font-family:'game';
+	src:url('../font/汉仪雪君体简.ttf');
+}
+.container{
+	width: 1200px;
+	height: 600px;
+	background: url(../img/login-bg.jpg);
+	margin: auto;
+	position: relative;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-left: -600px;
+	margin-top: -300px;
+}
+.container input[type=text]{
+	position: absolute;
+	bottom: 180px;
+	left: 490px;
+	height: 40px;
+	width: 200px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	text-align: center;
+	outline: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-family:game;
+}
+.container button{
+	position: absolute;
+	bottom: 95px;
+	left: 500px;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+	width: 200px;
+	height: 40px;
+	border: none;
+	font-size: 22px;
+	letter-spacing: 10px;
+	outline: none;
+	font-family:game;
+}
+.mainbox{
+	width: 1200px;
+	height: 600px;
+	background:url(../img/main-bg.jpg);
+	margin: auto;
+	position: relative;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin-left: -600px;
+	margin-top: -300px;
+	font-family: game;
+}
+.userMessage{
+	position: absolute;
+	top: 65px;
+	left: 130px;
+}
