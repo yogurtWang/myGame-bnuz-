@@ -1,0 +1,18 @@
+body{
+	font-family: "微软雅黑";
+	background: url(../img/bg3.JPG);
+}
+.photobox{
+	float: left;
+	padding: 8px;
+	margin-left: 10px;
+	background-color: white;
+}
+.photobox img{
+	height: 120px;
+	display: block;
+}
+.photobox p{
+	text-align: center;
+	font-size: 18px;
+	}
