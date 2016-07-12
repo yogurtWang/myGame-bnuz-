@@ -59,6 +59,177 @@
 }
 .userMessage{
 	position: absolute;
+	position: relative;
 	top: 65px;
 	left: 130px;
+	width: 220px;
+}
+.userMessage h1{
+	font-size: 34px;
+}
+.userMessage p,span,label{
+	font-size: 18px;
+	font-weight:bold;
+}
+.userMessage label{
+	position: absolute;
+	right: 10px;
+}
+.onlinebox{
+	position: absolute;
+	left: 100px;
+	top: 270px;
+	width: 270px;
+}
+.title{
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+}
+.number{
+	float: right;
+	margin-top:27px;
+	color: #A8A8A8;
+	font-size: 20px;
+}
+.onlineMessage{
+	position: absolute;
+	top: 60px;
+	left: -20px;
+	width: 290px;
+	height: 130px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding: 0 10px;
+}
+.onlineMessage tr{
+	line-height: 35px;
+}
+.onlineMessage td{
+	width: 140px;
+	text-align: center;
+	font-size: 18px;
+}
+.online{
+	color: green;
+}
+.roombox{
+	position: absolute;
+	top:515px;
+	left: 62px;
+}
+.roombox input[type=text]{
+	height: 40px;
+	width: 200px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	text-align: center;
+	outline: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-family:game;
+}
+.roombox button{
+	position: absolute;
+	top:-3px;
+	left: 225px;
+	width: 65px;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+	border: none;
+	font-size: 22px;
+	outline: none;
+	font-family:game;
+}
+.gameRoom{
+	position: absolute;
+	top:35px;
+	right:65px;
+	width: 700px;
+}
+.gameRoom h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 100;
+}
+.gameTable ul{
+	width: 600px;
+}
+.gameTable ul li{
+	list-style: none;
+	float: left;
+	width: 100px;
+	margin-bottom: 15px;
+}
+.gameTable ul li{
+	text-align: center;
+}
+.gameTable ul li p{
+	margin: 0;
+	margin-top: 5px;
+	text-align: center;
+}
+.gameTable{
+	position: absolute;
+	top:45px;
+	height: 140px;
+	width: 680px;
+	overflow-y: scroll;
+}
+.chatbox{
+	position: absolute;
+	top:265px;
+	right:65px;
+	width: 700px;
+}
+.chatbox h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 100;
+}
+.chatbar{
+	width: 690px;
+	height: 170px;
+	overflow-y: scroll;
+}
+.chatbar ul{
+	margin: 0;
+}
+.chatbar ul li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+}
+.chattime{
+	color: #A8A8A8;
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+}
+.send{
+	text-align: right;
+	margin-right:20px ;
+}
+.chatbox input[type=text]{
+	width: 240px;
+	height: 22px;
+	border-radius:5px;
+	border: 2px black solid;
+	margin-top: 15px;
+	margin-left: 235px;
+	font-size: 16px;
+	font-family: game;
+	letter-spacing: 4px;
+	padding-left: 10px;
+	outline: none;
+	
+}
+.chatbox button{
+	border: none;
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: game;
 }
